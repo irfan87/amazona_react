@@ -10,10 +10,11 @@ const data = {
 			rating: 4.5,
 			numReviews: 10,
 			description: "high quality shirt.",
+			countInStock: 10,
 		},
 		{
 			_id: "2",
-			name: "Adidas Fit Shirt",
+			name: "Adidas Sweat Shirt",
 			category: "Shirts",
 			image: "/images/product-2.jpg",
 			price: 100,
@@ -21,6 +22,7 @@ const data = {
 			rating: 4.0,
 			numReviews: 10,
 			description: "high quality shirt.",
+			countInStock: 3,
 		},
 		{
 			_id: "3",
@@ -32,6 +34,7 @@ const data = {
 			rating: 4.0,
 			numReviews: 17,
 			description: "high quality shirt.",
+			countInStock: 5,
 		},
 		{
 			_id: "4",
@@ -43,6 +46,7 @@ const data = {
 			rating: 4.5,
 			numReviews: 14,
 			description: "high quality shirt.",
+			countInStock: 7,
 		},
 		{
 			_id: "5",
@@ -54,6 +58,7 @@ const data = {
 			rating: 4.5,
 			numReviews: 10,
 			description: "high quality shirt.",
+			countInStock: 2,
 		},
 		{
 			_id: "6",
@@ -65,6 +70,7 @@ const data = {
 			rating: 4.5,
 			numReviews: 10,
 			description: "high quality shirt.",
+			countInStock: 5,
 		},
 		{
 			_id: "7",
@@ -76,6 +82,7 @@ const data = {
 			rating: 4.5,
 			numReviews: 10,
 			description: "high quality shirt.",
+			countInStock: 0,
 		},
 	],
 };
