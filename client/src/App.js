@@ -12,8 +12,8 @@ function App() {
 					</a>
 				</div>
 				<div>
-					<a href="cart.html">Cart</a>
-					<a href="sign_in.html">Sign In</a>
+					<a href="/cart">Cart</a>
+					<a href="/signin">Sign In</a>
 				</div>
 			</header>
 			<main>
