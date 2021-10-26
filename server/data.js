@@ -55,7 +55,7 @@ const data = {
 			image: "/images/product-5.jpg",
 			price: 165,
 			brand: "Puma",
-			rating: 4.5,
+			rating: 3.0,
 			numReviews: 10,
 			description: "high quality shirt.",
 			countInStock: 2,
