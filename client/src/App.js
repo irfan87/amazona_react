@@ -1,4 +1,5 @@
 import { BrowserRouter, Link, Route } from "react-router-dom";
+import CartScreen from "./screens/CartScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ProductDetailScreen from "./screens/ProductDetailScreen";
 
@@ -20,6 +21,7 @@ function App() {
 				<main>
 					<Route path="/" component={HomeScreen} exact />
 					<Route path="/product/:id" component={ProductDetailScreen} />
+					<Route path="/cart/:id?" component={CartScreen} />
 				</main>
 				<footer className="row center">All Right Reserved</footer>
 			</div>
