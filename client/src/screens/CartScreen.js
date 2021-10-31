@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-import { addToCart } from "../actions/cartActions";
+import { addToCart, removeFromCart } from "../actions/cartActions";
 import Message from "../components/Message";
 
 const CartScreen = (props) => {
@@ -24,6 +24,7 @@ const CartScreen = (props) => {
 
 	const removeFromCartHandler = (id) => {
 		// delete action
+		dispatch(removeFromCart(id));
 	};
 
 	const checkoutHandler = () => {
@@ -34,10 +35,9 @@ const CartScreen = (props) => {
 		<div className="row top">
 			<div className="col-2">
 				<h1>Shopping Cart</h1>
-				{cartItems.length < 0 ? (
+				{cartItems.length === 0 ? (
 					<Message>
-						Cart Is Empty
-						<Link to="/">Go Shopping</Link>
+						Cart Is Empty. <Link to="/">Go Shopping</Link>
 					</Message>
 				) : (
 					<ul>
