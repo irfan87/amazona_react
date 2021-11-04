@@ -10,7 +10,10 @@
 		"start": "nodemon --watch server --exec node --experimental-modules server/server.js"
 	},
 	"dependencies": {
-		"express": "^4.17.1"
+		"bcryptjs": "^2.4.3",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.2.0",
+		"mongoose": "^6.0.12"
 	},
 	"devDependencies": {
 		"eslint": "^7.1.0",
