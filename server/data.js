@@ -17,7 +17,6 @@ const data = {
 	],
 	products: [
 		{
-			_id: "1",
 			name: "Nike Slim Shirt",
 			category: "Shirts",
 			image: "/images/product-1.jpg",
@@ -29,7 +28,6 @@ const data = {
 			countInStock: 10,
 		},
 		{
-			_id: "2",
 			name: "Adidas Sweat Shirt",
 			category: "Shirts",
 			image: "/images/product-2.jpg",
@@ -41,7 +39,6 @@ const data = {
 			countInStock: 3,
 		},
 		{
-			_id: "3",
 			name: "Lacoste Free Shirt",
 			category: "Shirts",
 			image: "/images/product-3.jpg",
@@ -53,7 +50,6 @@ const data = {
 			countInStock: 5,
 		},
 		{
-			_id: "4",
 			name: "Champion Slim Pant",
 			category: "Pants",
 			image: "/images/product-4.jpg",
@@ -65,7 +61,6 @@ const data = {
 			countInStock: 7,
 		},
 		{
-			_id: "5",
 			name: "Puma Slim Pant",
 			category: "Pants",
 			image: "/images/product-5.jpg",
@@ -77,7 +72,6 @@ const data = {
 			countInStock: 2,
 		},
 		{
-			_id: "6",
 			name: "Adidas Fit Pant",
 			category: "Pants",
 			image: "/images/product-6.jpg",
@@ -89,7 +83,6 @@ const data = {
 			countInStock: 5,
 		},
 		{
-			_id: "7",
 			name: "Lacoste Casual Shirt",
 			category: "Shirt",
 			image: "/images/p1.jpg",
