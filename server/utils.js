@@ -25,7 +25,6 @@ export const isAuth = (req, res, next) => {
 
 		jwt.verify(
 			token,
-			isAuth,
 			process.env.JWT_SECRET || "pL34s3D0NtSh4r3",
 			(err, decode) => {
 				if (err) {
